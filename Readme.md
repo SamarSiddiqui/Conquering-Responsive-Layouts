@@ -1,5 +1,5 @@
 ## 21 Days Challenge of Building Responsive Mindset
-## Website is already Responsive, by giving it style we make it UnResponsive.
+## Websites are already Responsive, by giving it style we make it UnResponsive.
 
 - Always give width as percentage to block level element.(BLE have a defualt width of 100%)
 - It's a good idea to avoid setting heights,as they cause more issue and elements inside them can peak outside as the vieport size decreases.(Maintain the height with giving Padding to the Element.)
