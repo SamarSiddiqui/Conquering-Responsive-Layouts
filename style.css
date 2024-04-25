@@ -1,0 +1,28 @@
+*{margin: 0;box-sizing: border-box;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.parent{
+ background-color: darkslategrey;
+  /* height: 65vh; */
+}
+
+.child1{
+ padding: 4em 5em 1em;
+ color: white;
+ width: 70%;
+ max-width: 800px;
+}
+
+.child1>*{
+    padding: 0.2em 0;
+}
+
+.child2{
+    padding: 0 5em 6em;
+}
+
+button{
+    padding: 0.6em 2.5em;
+    background-color: rgb(121, 205, 233);
+    border-radius: 50px;
+    border: none;
+}
