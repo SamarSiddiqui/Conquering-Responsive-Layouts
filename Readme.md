@@ -1,18 +1,29 @@
-## 21 Days Challenge of Building Responsive Mindset
-## Websites are already Responsive, by giving it style we make it UnResponsive.
+## 21-Day Challenge of Building a Responsive Mindset
 
-- Always give width as percentage to block level element.(BLE have a defualt width of 100%)
-- It's a good idea to avoid setting heights,as they cause more issue and elements inside them can peak outside as the vieport size decreases.(Maintain the height with giving padding to the elements.)
+## Websites are inherently responsive; it's the styling that can make them unresponsive.
+
+
+
+- Always use percentage width for block-level elements (BLEs), which default to 100% width.
+- It's advisable to refrain from setting heights, as they can cause issues, with elements inside potentially overflowing as the viewport size decreases. Instead, maintain height by applying padding to elements.
+
+
 ### em vs rem
-- em units when applied to fontsize on the element, it compound on each other as they look at their parents font size. And if we apply em to padding or margin than it looks (relative) to font size of the element itself.
-- width can cause issue at larger screen as things can get too big, so we can use max-width for maintaining a particular size.
-- The difference between veiw height/width and percent width/height is that vw/h is relative to the viewport and % w/h is relative to parent dimensions. 
+- When applied to font size, em units compound relative to their parent's font size. When applied to padding or margin, em units are relative to the element's font size.
+- Width issues can arise on larger screens, leading to elements becoming excessively large. To maintain a specific size, utilize max-width.
+- The difference between veiw w/h and percent width/height is that vw/h is relative to the viewport and % w/h is relative to parent dimensions. 
 
 
 ### FlexBox
 
--  display:flex is going to make a flex container having default behaviour of row. (flex-direction:row).
--  If a Parent Div have three Children, then the parent div is the flex Container & Children Are the Flex Items.
-- flex items by default want to be as small as they possibly can be.
-- To create space between the flex-items we can use Gap.
-- To get away from issues, we can use padding from top and bottom to maintain gap between elements, instead of giving fixed height to them.
+- Applying display:flex creates a flex container with the default behavior of a row (flex-direction: row).
+- If a parent div contains three children, the parent div becomes the flex container, and the children become flex items.
+- Flex items naturally strive to be as small as possible.
+- To create space between flex items, utilize gap.
+- Instead of assigning fixed heights to elements, maintain gaps between them by using padding on the top and bottom.
+- When using images in a flex container, enclose them in a div and set the div's width as needed (in percentage), while avoiding setting the height. Then, set the width of the image (also in percentage).
+- Ensure image responsiveness by selecting an image and setting max-width: 100%. This ensures images never exceed their original size but shrink proportionally if the parent container shrinks.
+
+
+
+
