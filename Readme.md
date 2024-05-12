@@ -33,7 +33,7 @@
 - **flex-grow** default is 0. It specifies how much the item will grow relative to the rest of the flexible items inside the same container.
 - **flex-shrink** default is 1, specifies how the item will shrink relative to the rest of the flexible items inside the same container.
 - **flex-basis**: 200px; describes how much space it will take, and shorthand for all three is flex: grow shrink basis; align-self aligning the items itself only.
-
+- **margin:0,auto;** is a good way to make element center itself inside the container across Cross Axis.
 
 
 
