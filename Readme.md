@@ -35,10 +35,36 @@
 - **flex-basis**: 200px; describes how much space it will take, and shorthand for all three is flex: grow shrink basis; align-self aligning the items itself only.
 - **margin:0,auto;** is a good way to make element center itself inside the container across Cross Axis.
 
+#### min(),max(), clamp(), clac()
+
+- **min(value1, value2, ...);**: This function returns the smallest value among the values provided. 
+
+Ex: **width: min(200px, 50%);** This sets the width to the smallest value between 200 pixels and 50% of the parent element's width. So, it ensures that the width won't be smaller than 200 pixels.
+
+- **max(value1, value2, ...);**: This function does the opposite of min(). It returns the largest value among the values provided. It's useful when you want to set a maximum limit. 
+
+Ex: **font-size: max(16px, 2vw);**
+This sets the font size to the largest value between 16 pixels and 2% of the viewport width. So, it ensures that the font size won't exceed 16 pixels even if 2% of the viewport width would result in a larger size.
 
 
 
 
+- **clamp(min, actual, max)**: It's a smart way to set a value that stays within a certain range.
+
+- min is the minimum value you want.
+- actual is the value you want to use.
+- max is the maximum value you want.
+
+Ex: **font-size: clamp(16px, 4vw, 24px);**
+This means the font size will be at least 16 pixels (min), but if the viewport width (actual) increases, it will grow, but won't go beyond 4% of the viewport width or 24 pixels, whichever is smaller (max).
+
+
+- **calc(expression)** - We can use calc() to perform addition, subtraction, multiplication, and division within CSS property values.
+
+Ex: **width: calc(50% - 20px);** This calculates the width to be 50% of its container minus 20 pixels. So, if the container is 1000 pixels wide, the width would be **480px** (50% of 1000 - 20).
+
+**height: calc(100vh - 50px);**
+This sets the height to be 100% of the viewport height minus 50 pixels.
 
 
 
