@@ -6,3 +6,77 @@ body,html{
 }
 
 
+.firstBox{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3EED9;
+    color: #824936;
+    height: 80vh;
+}
+
+
+
+.firstBoxInfo h2{
+    font-size: 33px;
+    max-width: 450px;
+}
+
+.secondBox{
+    padding: 4em;
+    text-align: center;
+}
+
+.secondBoxInfoTop >h2 {
+    color: #824936;
+    font-size: 27px;
+}
+
+.secondBoxInfoBottom {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+}
+
+
+.secondBoxInfoBottom > p {
+    padding: 1em;
+    max-width: 380px;
+    font-weight: bold;
+}
+
+
+.thirdBox{
+    background-color: #222C2a;
+    color: white;
+    padding: 4em 5em;
+    display: flex;
+    justify-content:center;
+}
+
+.thirdboxRight{
+    max-width: 450px;
+    padding:0  2em;
+
+}
+.thirdboxRight p{
+    margin-top: 1em;
+}
+.thirdboxleft {
+    width: 500px;
+    height: 300px;
+}
+
+.thirdboxleft img{
+    width: 100%;
+    height: 100%;
+}
+
+.forthBox{
+    background-color: #824936;
+    color: white;
+    padding: 4em 5em;
+    display: flex;
+    justify-content:center;
+}
